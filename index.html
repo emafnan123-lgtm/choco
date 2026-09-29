@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Violette & Co. | Artisanal Pâtisserie & Garden Coffeehouse</title>
+  <meta name="description" content="A modern, luxurious bakery and boutique coffee shop offering handcrafted pastries, decadent celebration cakes, artisanal sweets, and specialty coffee in an enchanting fairy-lit outdoor garden patio.">
+  <meta name="keywords" content="bakery Lahore, luxury coffee shop, garden café, pastries, cakes, lavender latte, outdoor seating café, artisanal bakery Pakistan">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="La Violette & Co. | Pâtisserie & Garden Coffeehouse">
+  <meta property="og:description" content="Handcrafted French pastries, specialty espresso, and decadent cakes served in a serene outdoor botanical garden patio.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       TOP ANNOUNCEMENT BAR
+       ========================================================================== -->
+  <div class="topbar">
+    <div class="container topbar-container">
+      <div class="topbar-left">
+        <span class="badge-outdoor-open"><i class="fas fa-seedling"></i> Garden Patio Open</span>
+        <span class="topbar-item"><i class="far fa-clock"></i> Daily: 8:00 AM – 11:30 PM</span>
+        <span class="topbar-item"><i class="fas fa-map-marker-alt"></i> 14-C, Gulberg III, Lahore</span>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-item"><i class="fas fa-truck text-caramel"></i> Free delivery on orders over ₨ 2,500</span>
+        <span class="pkr-currency-tag">All Prices in PKR (₨)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MAIN NAVIGATION BAR
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="brand-logo">
+          <div class="logo-symbol">
+            <i class="fas fa-mug-hot"></i>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">LA VIOLETTE</span>
+            <span class="brand-subtitle">PÂTISSERIE & GARDEN CAFÉ</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#menu" class="nav-link">Menu & Brews</a></li>
+          <li><a href="#outdoor" class="nav-link">Outdoor Garden</a></li>
+          <li><a href="#cake-studio" class="nav-link">Cake Studio</a></li>
+          <li><a href="#reservation" class="nav-link">Reserve Table</a></li>
+          <li><a href="#gallery" class="nav-link">Ambiance</a></li>
+          <li><a href="#story" class="nav-link">Our Story</a></li>
+          <li><a href="#reviews" class="nav-link">Praise</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="cart-icon-btn" id="cartIconBtn" aria-label="View shopping basket" title="View Order Basket">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-badge-count" id="cartBadgeCount">0</span>
+          </button>
+          <a href="#reservation" class="btn btn-caramel btn-sm">
+            <i class="far fa-calendar-check"></i> Book Table
+          </a>
+          <button class="mobile-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero-section">
+    <div class="hero-backdrop">
+      <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1920&q=85" alt="Cozy bakery café with outdoor ambient lighting and coffee bar">
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-star"></i> Artisanal French Pâtisserie & Specialty Coffee Roastery
+      </div>
+
+      <h1 class="hero-title">
+        Where Velvet Pâtisserie Meets <br>
+        <span class="text-gradient">Artisanal Roasted Brews</span>
+      </h1>
+
+      <p class="hero-description">
+        Step into an intimate sanctuary of French viennoiserie, decadent celebration cakes, and velvety single-origin espresso. Linger with friends under fairy-lit jasmine pergolas in our tranquil open-air garden patio.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#menu" class="btn btn-caramel">
+          <i class="fas fa-utensils"></i> Explore The Menu
+        </a>
+        <a href="#outdoor" class="btn btn-velvet">
+          <i class="fas fa-leaf"></i> Discover Garden Seating
+        </a>
+        <a href="#cake-studio" class="btn btn-outline">
+          <i class="fas fa-birthday-cake"></i> Custom Cakes
+        </a>
+      </div>
+
+      <div class="hero-highlights-strip">
+        <div class="highlight-box">
+          <i class="fas fa-bread-slice"></i>
+          <div>
+            <strong>100% French Butter</strong>
+            <span>Hand-rolled Viennoiserie</span>
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <i class="fas fa-seedling"></i>
+          <div>
+            <strong>Secret Garden Patio</strong>
+            <span>Fairy-lit Outdoor Veranda</span>
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <i class="fas fa-coffee"></i>
+          <div>
+            <strong>Single-Origin Arabica</strong>
+            <span>Micro-Batch Roasted Coffee</span>
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <i class="fas fa-heart"></i>
+          <div>
+            <strong>Baked at Dawn</strong>
+            <span>Fresh Artisanal Batches Daily</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DEDICATED OUTDOOR GARDEN SEATING SPOTLIGHT
+       ========================================================================== -->
+  <section class="outdoor-section" id="outdoor">
+    <div class="container">
+      <div class="outdoor-card-container">
+        
+        <!-- Left: Image Mosaic -->
+        <div class="outdoor-img-mosaic">
+          <div class="outdoor-img-main">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Beautiful outdoor garden seating with fairy lights and lush greenery">
+          </div>
+          <div class="outdoor-img-sub">
+            <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=600&q=80" alt="Outdoor coffee table with freshly brewed latte and pastry">
+          </div>
+          <div class="outdoor-img-sub">
+            <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?auto=format&fit=crop&w=600&q=80" alt="Evening fairy lights over outdoor garden café patio">
+          </div>
+          <div class="outdoor-floating-tag">
+            <i class="fas fa-moon"></i> Twilight Garden Experience
+          </div>
+        </div>
+
+        <!-- Right: Text & Details -->
+        <div class="outdoor-text-side">
+          <span class="section-tag"><i class="fas fa-feather-alt"></i> The Outdoor Sanctuary</span>
+          <h2>Relax Under <span class="text-caramel">Jasmine & Fairy Lights</span></h2>
+          <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8;">
+            Escape the bustle of the city into our botanical garden veranda. Encircled by fragrant lavender bushes, creeping ivy, and blooming jasmine, our outdoor patio is designed for slow sips, intimate conversations, and peaceful indulgence.
+          </p>
+
+          <div class="outdoor-features-list">
+            <div class="outdoor-feature-item">
+              <i class="fas fa-fire-alt"></i>
+              <div>
+                <strong>Heated Winter Veranda</strong>
+                <span>Outdoor cozy brass fire pits & plush velvet blankets</span>
+              </div>
+            </div>
+
+            <div class="outdoor-feature-item">
+              <i class="fas fa-umbrella"></i>
+              <div>
+                <strong>Shaded Sun Pergolas</strong>
+                <span>Gentle daytime mist & breezy botanical canopy</span>
+              </div>
+            </div>
+
+            <div class="outdoor-feature-item">
+              <i class="fas fa-paw"></i>
+              <div>
+                <strong>Pet-Friendly Garden</strong>
+                <span>Welcome companions with fresh water bowls</span>
+              </div>
+            </div>
+
+            <div class="outdoor-feature-item">
+              <i class="fas fa-music"></i>
+              <div>
+                <strong>Twilight Acoustic Sets</strong>
+                <span>Soft soul & jazz melodies every weekend evening</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="#reservation" class="btn btn-caramel">
+            <i class="fas fa-chair"></i> Reserve Your Garden Table
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MENU & DELICACIES SECTION
+       ========================================================================== -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="menu-header-bar">
+        <span class="section-tag"><i class="fas fa-cookie"></i> Handcrafted Offerings</span>
+        <h2 class="section-title">The Pâtisserie & <span class="text-gradient">Espresso Bar</span></h2>
+        <p class="section-subtitle">
+          Every dessert is baked from scratch with natural butter, real Madagascan vanilla, and single-origin cacao. Paired impeccably with micro-batch roasted coffee.
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="menu-filter-nav">
+          <button class="filter-btn active" data-filter="all">All Delicacies</button>
+          <button class="filter-btn" data-filter="pastries">Viennoiserie & Pastries</button>
+          <button class="filter-btn" data-filter="cakes">Cakes & Tarts</button>
+          <button class="filter-btn" data-filter="sweets">Artisanal Sweets</button>
+          <button class="filter-btn" data-filter="coffee">Artisan Coffee</button>
+          <button class="filter-btn" data-filter="beverages">Cold Brews & Sparklers</button>
+        </div>
+      </div>
+
+      <!-- Dynamic Menu Grid -->
+      <div class="menu-items-grid" id="menuItemsGrid">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CUSTOM CELEBRATION CAKE STUDIO & PRICE ESTIMATOR
+       ========================================================================== -->
+  <section class="cake-studio-section" id="cake-studio">
+    <div class="container">
+      <div class="section-header-bar" style="text-align: center; margin-bottom: 40px;">
+        <span class="section-tag"><i class="fas fa-magic"></i> Bespoke Creations</span>
+        <h2 class="section-title">Bespoke Celebration <span class="text-purple-gradient">Cake Studio</span></h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          Design the celebration centerpiece for your wedding, birthday, or milestone. Choose your sponge, filling, finish, and custom message with live pricing.
+        </p>
+      </div>
+
+      <div class="studio-card-box">
+        <div class="studio-grid">
+          
+          <!-- Left: Builder Controls -->
+          <div class="studio-controls">
+            
+            <!-- Step 1: Size -->
+            <div class="studio-step">
+              <label class="studio-step-label">
+                <span class="step-badge">1</span> Choose Cake Size & Servings
+              </label>
+              <div class="cake-sizes-grid">
+                <label class="size-pill-card">
+                  <input type="radio" name="cakeSize" value="2800" data-weight="1.5 lbs">
+                  <strong>1.5 lbs</strong>
+                  <span>6–8 Servings</span>
+                </label>
+                <label class="size-pill-card active">
+                  <input type="radio" name="cakeSize" value="4200" data-weight="2.5 lbs" checked>
+                  <strong>2.5 lbs</strong>
+                  <span>10–14 Servings</span>
+                </label>
+                <label class="size-pill-card">
+                  <input type="radio" name="cakeSize" value="6500" data-weight="4.0 lbs">
+                  <strong>4.0 lbs</strong>
+                  <span>18–22 Servings</span>
+                </label>
+                <label class="size-pill-card">
+                  <input type="radio" name="cakeSize" value="9800" data-weight="6.0 lbs (2-Tier)">
+                  <strong>6.0 lbs (2-Tier)</strong>
+                  <span>Grand Party (30+)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Step 2: Flavor Selection -->
+            <div class="studio-step">
+              <label class="studio-step-label">
+                <span class="step-badge">2</span> Signature Sponge & Filling Flavor
+              </label>
+              <div class="studio-input-wrap">
+                <select id="cakeFlavorSelect">
+                  <option value="choco">Belgian 70% Dark Chocolate Ganache & Hazelnut Praline</option>
+                  <option value="violet" selected>Signature Lavender Blueberry Velvet with Cream Cheese</option>
+                  <option value="mocha">Espresso Mocha Truffle with Mascarpone Layering</option>
+                  <option value="pistachio">Sicilian Pistachio Sponge with Raspberry Coulis</option>
+                  <option value="lotus">Salted Caramel Lotus Biscoff Crumb</option>
+                  <option value="vanilla">Tahitian Vanilla Bean with Fresh Seasonal Berries</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Step 3: Frosting Finish -->
+            <div class="studio-step">
+              <label class="studio-step-label">
+                <span class="step-badge">3</span> Exterior Design & Frosting Finish
+              </label>
+              <div class="finish-options-grid">
+                <label class="finish-card active">
+                  <input type="radio" name="cakeFinish" value="0" data-name="Velvet Swiss Meringue" checked>
+                  <strong>Swiss Meringue</strong>
+                  <span>Silky smooth velvet coat</span>
+                </label>
+                <label class="finish-card">
+                  <input type="radio" name="cakeFinish" value="600" data-name="Glossy Mirror Glaze">
+                  <strong>Mirror Glaze (+₨ 600)</strong>
+                  <span>Ultra-shiny marble finish</span>
+                </label>
+                <label class="finish-card">
+                  <input type="radio" name="cakeFinish" value="0" data-name="Rustic Semi-Naked">
+                  <strong>Semi-Naked Rustic</strong>
+                  <span>Visible sponge with florals</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Step 4: Custom Inscription -->
+            <div class="studio-step" style="margin-bottom: 20px;">
+              <label class="studio-step-label">
+                <span class="step-badge">4</span> Hand-Piped Custom Inscription
+              </label>
+              <div class="studio-input-wrap">
+                <input type="text" id="cakeInscriptionInput" placeholder="e.g. Happy 25th Birthday Ayesha! ✨" maxlength="45">
+              </div>
+            </div>
+
+            <!-- Step 5: Add-on Embellishments -->
+            <div class="studio-step" style="margin-bottom: 0;">
+              <label class="studio-step-label">
+                <span class="step-badge">5</span> Luxury Embellishments
+              </label>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                <label style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.03); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-light); cursor: pointer; font-size: 0.85rem;">
+                  <input type="checkbox" class="cake-addon-check" value="500" data-name="24K Gold Leaf & French Macarons" style="accent-color: var(--caramel-400);">
+                  <span>24K Gold Leaf & Macarons (+₨ 500)</span>
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.03); padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid var(--border-light); cursor: pointer; font-size: 0.85rem;">
+                  <input type="checkbox" class="cake-addon-check" value="350" data-name="Celebration Sparkler & Candle Set" style="accent-color: var(--caramel-400);">
+                  <span>Champagne Sparkler Kit (+₨ 350)</span>
+                </label>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: Live Cake Summary & Price -->
+          <div class="studio-summary-sidebar">
+            <div>
+              <h3 style="font-size: 1.3rem; margin-bottom: 18px; color: var(--cream-50); border-bottom: 1px solid var(--border-light); padding-bottom: 12px;">
+                Cake Specification
+              </h3>
+              <div class="summary-spec-row">
+                <span>Cake Weight:</span>
+                <strong id="cakeSummaryWeight">2.5 lbs</strong>
+              </div>
+              <div class="summary-spec-row">
+                <span>Flavor Profile:</span>
+                <strong id="cakeSummaryFlavor">Lavender Blueberry Velvet</strong>
+              </div>
+              <div class="summary-spec-row">
+                <span>Design Finish:</span>
+                <strong id="cakeSummaryFinish">Velvet Swiss Meringue</strong>
+              </div>
+              <div class="summary-spec-row">
+                <span>Lead Time:</span>
+                <strong style="color: var(--caramel-400);">Same-Day (4 hrs) / Next Day</strong>
+              </div>
+            </div>
+
+            <div>
+              <div class="cake-total-callout">
+                <div class="label">Total Custom Cake Price</div>
+                <div class="cake-total-price" id="cakeSummaryTotalPrice">₨ 4,200</div>
+              </div>
+
+              <button class="btn btn-caramel" id="orderCustomCakeBtn" style="width: 100%; padding: 14px;">
+                <i class="fas fa-shopping-bag"></i> Add Custom Cake to Basket
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TABLE & OUTDOOR PATIO RESERVATION
+       ========================================================================== -->
+  <section class="reservation-section" id="reservation">
+    <div class="container">
+      <div class="reservation-grid">
+        
+        <!-- Left: Perks & Atmosphere -->
+        <div class="reservation-info-card">
+          <span class="section-tag"><i class="far fa-clock"></i> Table Bookings</span>
+          <h2 style="font-size: 2.2rem; margin-bottom: 14px;">Reserve Your <span class="text-caramel">Cozy Corner</span></h2>
+          <p style="color: var(--text-secondary); line-height: 1.7;">
+            Whether you are planning an intimate coffee date, an afternoon tea gathering, or a birthday dessert celebration under the stars, our reservation team ensures your table is ready.
+          </p>
+
+          <div class="reservation-perks-list">
+            <div class="res-perk-item">
+              <i class="fas fa-glass-cheers"></i>
+              <div>
+                <strong>Complimentary Welcome Amuse-Bouche</strong>
+                <span>Miniature macaron or iced espresso shot upon arrival</span>
+              </div>
+            </div>
+
+            <div class="res-perk-item">
+              <i class="fas fa-calendar-check"></i>
+              <div>
+                <strong>Guaranteed Outdoor Garden Table</strong>
+                <span>Priority seating in our fairy-lit veranda during peak evening hours</span>
+              </div>
+            </div>
+
+            <div class="res-perk-item">
+              <i class="fas fa-concierge-bell"></i>
+              <div>
+                <strong>Dedicated Table Service</strong>
+                <span>Personal barista assistance for pour-overs & cake pairings</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Reservation Form -->
+        <div class="reservation-form-card">
+          <h3 style="font-size: 1.45rem; margin-bottom: 20px; color: var(--cream-50);">Reserve a Table</h3>
+          <form id="tableReservationForm">
+            
+            <div class="form-row-2">
+              <div class="res-input-group">
+                <label for="resName">Full Name *</label>
+                <input type="text" id="resName" placeholder="e.g. Zainab Malik" required>
+              </div>
+              <div class="res-input-group">
+                <label for="resPhone">WhatsApp Phone *</label>
+                <input type="tel" id="resPhone" placeholder="0300 1234567" required>
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="res-input-group">
+                <label for="resGuests">Number of Guests</label>
+                <select id="resGuests">
+                  <option value="2">2 Guests (Couple / Intimate)</option>
+                  <option value="4" selected>4 Guests (Friends / Family)</option>
+                  <option value="6">6 Guests (Small Gathering)</option>
+                  <option value="8">8–12 Guests (Celebration Party)</option>
+                </select>
+              </div>
+              <div class="res-input-group">
+                <label for="resZone">Seating Zone Preference</label>
+                <select id="resZone">
+                  <option value="Secret Garden Floral Patio" selected>Secret Garden Floral Patio (Outdoor)</option>
+                  <option value="Fairy-Lit Veranda">Fairy-Lit Veranda (Semi-Outdoor)</option>
+                  <option value="Indoor Velvet Lounge">Indoor Velvet Lounge (Air Conditioned)</option>
+                  <option value="Fireplace Coffee Corner">Fireplace Coffee Corner (Cozy)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row-2">
+              <div class="res-input-group">
+                <label for="resDate">Preferred Date</label>
+                <input type="date" id="resDate" required>
+              </div>
+              <div class="res-input-group">
+                <label for="resTime">Preferred Time Slot</label>
+                <select id="resTime">
+                  <option value="09:00 AM">09:00 AM (Morning Coffee & Croissants)</option>
+                  <option value="12:30 PM">12:30 PM (Midday Garden Brunch)</option>
+                  <option value="04:30 PM">04:30 PM (High Tea & Sweets)</option>
+                  <option value="07:30 PM" selected>07:30 PM (Sunset & Fairy Lights)</option>
+                  <option value="09:30 PM">09:30 PM (Late Night Dessert & Brews)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="res-input-group" style="margin-bottom: 22px;">
+              <label for="resNotes">Special Requests (Optional)</label>
+              <textarea id="resNotes" rows="2" placeholder="Birthday celebration, anniversary flowers, dietary notes..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-caramel" style="width: 100%; padding: 14px;">
+              <i class="far fa-paper-plane"></i> Confirm Table Reservation
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PHOTO GALLERY / AMBIANCE
+       ========================================================================== -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header-bar" style="text-align: center; margin-bottom: 40px;">
+        <span class="section-tag"><i class="fas fa-camera"></i> Visual Story</span>
+        <h2 class="section-title">Moments at <span class="text-gradient">La Violette</span></h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          An artistic glimpse into our bakery trays, latte art, and the enchanting garden glow.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item span-2 row-2">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" alt="Evening garden café with fairy lights and patrons">
+          <div class="gallery-overlay">
+            <h4>The Secret Garden at Dusk</h4>
+            <span>Fairy lights and coffee aromas</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=700&q=80" alt="Latte art coffee cup on wooden table">
+          <div class="gallery-overlay">
+            <h4>Single-Origin Latte Art</h4>
+            <span>House-roasted Colombian espresso</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1569864358642-9d1684040f43?auto=format&fit=crop&w=700&q=80" alt="Pastel French macarons box">
+          <div class="gallery-overlay">
+            <h4>Royal Macaron Assortment</h4>
+            <span>Lavender, caramel, and chocolate</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=700&q=80" alt="Fresh golden croissants">
+          <div class="gallery-overlay">
+            <h4>Dawn Croissant Batch</h4>
+            <span>100% French butter honeycomb pastry</span>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=700&q=80" alt="Berry chocolate celebration cake">
+          <div class="gallery-overlay">
+            <h4>Signature Velvet Berry Gateau</h4>
+            <span>Valrhona cacao and wild berries</span>
+          </div>
+        </div>
+
+        <div class="gallery-item span-2">
+          <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=80" alt="Outdoor wooden veranda with coffee and treats">
+          <div class="gallery-overlay">
+            <h4>Afternoon Veranda Sessions</h4>
+            <span>Sun-dappled tables and artisanal sweets</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       OUR STORY & PHILOSOPHY
+       ========================================================================== -->
+  <section class="outdoor-section" id="story" style="padding-top: 40px;">
+    <div class="container">
+      <div style="background: linear-gradient(135deg, rgba(30, 15, 36, 0.85), rgba(39, 22, 12, 0.8)); border: 1px solid var(--border-glow); border-radius: var(--radius-lg); padding: 50px 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
+        <div>
+          <span class="section-tag"><i class="fas fa-heart"></i> Our Philosophy</span>
+          <h2 style="font-size: 2.4rem; margin-bottom: 18px;">A Love Letter to <span class="text-caramel">Butter, Beans & Botany</span></h2>
+          <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px;">
+            La Violette was born from a simple yet passionate vision: to recreate the slow-paced elegance of French pâtisseries blended harmoniously with the lively spirit of specialty third-wave coffee bars.
+          </p>
+          <p style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 24px;">
+            We believe that a croissant must shatter delicately upon the first bite, an espresso must possess sweet crema without bitterness, and dessert should always be savored in an inspiring, peaceful open-air garden.
+          </p>
+          <div style="display: flex; gap: 28px; border-top: 1px solid var(--border-light); padding-top: 20px;">
+            <div>
+              <strong style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--caramel-400);">100%</strong>
+              <span style="display: block; font-size: 0.78rem; color: var(--text-secondary);">Real Butter & Dairy</span>
+            </div>
+            <div>
+              <strong style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--caramel-400);">4.9 ★</strong>
+              <span style="display: block; font-size: 0.78rem; color: var(--text-secondary);">5,000+ Happy Guests</span>
+            </div>
+            <div>
+              <strong style="font-family: var(--font-serif); font-size: 1.8rem; color: var(--caramel-400);">Zero</strong>
+              <span style="display: block; font-size: 0.78rem; color: var(--text-secondary);">Artificial Preservatives</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="position: relative; border-radius: var(--radius-md); overflow: hidden; height: 380px; border: 1px solid var(--border-light);">
+          <img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=800&q=80" alt="Barista preparing artisan coffee at La Violette espresso bar" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CUSTOMER REVIEWS & PRAISE
+       ========================================================================== -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header-bar" style="text-align: center; margin-bottom: 40px;">
+        <span class="section-tag"><i class="fas fa-quote-left"></i> Guest Love</span>
+        <h2 class="section-title">Words From Our <span class="text-purple-gradient">Cherished Guests</span></h2>
+        <p class="section-subtitle" style="margin: 0 auto;">
+          The sweetest compliments from coffee aficionados and pastry lovers alike.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-body">
+            "The outdoor garden patio at night is straight out of a fairy tale! Sitting under the fairy lights with their Signature Lavender Velvet Latte and warm Pain au Chocolat is my weekly ritual. Unmatched elegance in Lahore."
+          </p>
+          <div class="reviewer-profile">
+            <div class="reviewer-avatar">AN</div>
+            <div class="reviewer-meta">
+              <strong>Anum Naeem</strong>
+              <span>Food Columnist • Lahore</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-body">
+            "We ordered our wedding anniversary cake through their custom Cake Studio (the Lavender Blueberry Velvet). Not only was it jaw-droppingly gorgeous, but every single guest asked where it was from. Pure perfection!"
+          </p>
+          <div class="reviewer-profile">
+            <div class="reviewer-avatar">OB</div>
+            <div class="reviewer-meta">
+              <strong>Omar & Bushra</strong>
+              <span>Gulberg III, Lahore</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="review-body">
+            "Finally, a bakery that takes both French pastry AND third-wave espresso seriously! The cortado had impeccable crema and the mille-feuille layers were perfectly crisp. The garden seating on a breezy evening is sublime."
+          </p>
+          <div class="reviewer-profile">
+            <div class="reviewer-avatar">HA</div>
+            <div class="reviewer-meta">
+              <strong>Hamza Abbasi</strong>
+              <span>Coffee Enthusiast</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="logo-symbol">
+              <i class="fas fa-mug-hot"></i>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">LA VIOLETTE</span>
+              <span class="brand-subtitle">PÂTISSERIE & GARDEN CAFÉ</span>
+            </div>
+          </div>
+          <p style="color: var(--text-secondary); line-height: 1.7; margin-bottom: 20px;">
+            A sanctuary of warm velvet purple and roasted espresso brown aesthetics. Serving artisanal French pastries, custom celebration cakes, and third-wave espresso in a peaceful garden patio.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon-btn" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" class="social-icon-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Bakery & Pastries</h4>
+          <ul class="footer-links-list">
+            <li><a href="#menu">French Butter Croissants</a></li>
+            <li><a href="#menu">Pain au Chocolat</a></li>
+            <li><a href="#menu">Brioche & Danishes</a></li>
+            <li><a href="#cake-studio">Celebration Cakes</a></li>
+            <li><a href="#menu">Parisian Macarons</a></li>
+            <li><a href="#menu">Biscoff Cheesecakes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Coffee & Garden</h4>
+          <ul class="footer-links-list">
+            <li><a href="#menu">Lavender Velvet Latte</a></li>
+            <li><a href="#menu">Spanish Cortado</a></li>
+            <li><a href="#menu">Nitro Sweet Cold Brew</a></li>
+            <li><a href="#outdoor">Outdoor Garden Patio</a></li>
+            <li><a href="#reservation">Table Reservations</a></li>
+            <li><a href="#gallery">Café Ambiance</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Find & Contact Us</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>14-C, Main Boulevard, Gulberg III, Lahore, Pakistan</span>
+            </li>
+            <li>
+              <i class="far fa-clock"></i>
+              <span>Mon – Sun: 8:00 AM – 11:30 PM (Kitchen closes 11:00 PM)</span>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt"></i>
+              <span>+92 (300) 123-4567 / +92 (42) 3578-9000</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>bonjour@laviolettebakery.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 La Violette & Co. All Rights Reserved. Artisanal Pâtisserie & Garden Coffeehouse.
+        </div>
+        <div style="display: flex; gap: 20px;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Dietary & Allergy Guide</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       SLIDE-OVER SHOPPING CART DRAWER
+       ========================================================================== -->
+  <div class="cart-drawer-overlay" id="cartDrawerOverlay">
+    <div class="cart-drawer">
+      <div class="cart-drawer-header">
+        <h3><i class="fas fa-shopping-basket text-caramel"></i> Your Order Basket</h3>
+        <button class="cart-close-btn" id="cartCloseBtn" aria-label="Close cart">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="cart-items-container" id="cartItemsContainer">
+        <!-- Cart items rendered dynamically -->
+      </div>
+
+      <div class="cart-drawer-footer">
+        <div class="cart-subtotal-row">
+          <span>Total (PKR):</span>
+          <strong id="cartSubtotalAmount">₨ 0</strong>
+        </div>
+        <button class="btn btn-caramel" id="cartCheckoutBtn" style="width: 100%; padding: 14px;">
+          <i class="fas fa-check-circle"></i> Proceed to Order / Checkout
+        </button>
+        <div style="font-size: 0.74rem; color: var(--text-dim); text-align: center; margin-top: 10px;">
+          <i class="fas fa-shield-alt text-caramel"></i> Direct delivery across Lahore or instant garden pickup.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 1: CHECKOUT & DELIVERY / PICKUP MODAL
+       ========================================================================== -->
+  <div class="modal-backdrop" id="orderModal">
+    <div class="modal-box">
+      <button class="modal-close-icon modal-close-btn" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      <span class="section-tag" style="margin-bottom: 8px;"><i class="fas fa-bag-shopping"></i> Complete Order</span>
+      <h3 style="font-size: 1.6rem; color: var(--cream-50); margin-bottom: 6px;">Checkout Your Treats</h3>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 20px;">
+        Order Total: <strong id="orderModalTotal" style="color: var(--caramel-400); font-size: 1.1rem;">₨ 0</strong>
+      </p>
+
+      <form id="checkoutOrderForm">
+        <div class="res-input-group">
+          <label for="orderCustName">Your Name *</label>
+          <input type="text" id="orderCustName" placeholder="e.g. Mahira Khan" required>
+        </div>
+
+        <div class="res-input-group">
+          <label for="orderCustPhone">WhatsApp Phone Number *</label>
+          <input type="tel" id="orderCustPhone" placeholder="0300 1234567" required>
+        </div>
+
+        <div class="res-input-group">
+          <label for="orderType">Order Type</label>
+          <select id="orderType">
+            <option value="Home Delivery" selected>Doorstep Home Delivery (Gulberg, DHA, Cantt, Model Town)</option>
+            <option value="Self-Pickup">Self-Pickup at La Violette Garden Counter</option>
+            <option value="Dine-in Pre-order">Dine-In Pre-Order (Already seated in Garden)</option>
+          </select>
+        </div>
+
+        <div class="res-input-group">
+          <label for="orderAddress">Delivery Address (if applicable)</label>
+          <input type="text" id="orderAddress" placeholder="House #, Street, Phase / Block, Lahore">
+        </div>
+
+        <button type="submit" class="btn btn-caramel" style="width: 100%; padding: 14px; margin-top: 10px;">
+          <i class="fab fa-whatsapp" style="font-size: 1.15rem;"></i> Send Order to WhatsApp Concierge
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 2: TABLE RESERVATION CONFIRMATION PASS
+       ========================================================================== -->
+  <div class="modal-backdrop" id="reservationConfirmModal">
+    <div class="modal-box" style="text-align: center;">
+      <button class="modal-close-icon modal-close-btn" aria-label="Close modal"><i class="fas fa-times"></i></button>
+      
+      <div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(201, 133, 60, 0.15); border: 2px solid var(--caramel-400); color: var(--caramel-300); display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin: 0 auto 16px;">
+        <i class="fas fa-seedling"></i>
+      </div>
+
+      <span class="badge-outdoor-open" style="margin-bottom: 8px; display: inline-flex;">RESERVATION CONFIRMED</span>
+      <h3 style="font-size: 1.65rem; color: var(--cream-50); margin-bottom: 8px;">Table Reserved!</h3>
+      <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 22px;">
+        We are preparing your table, <strong id="confirmResName" style="color: var(--cream-50);">Guest</strong>.
+      </p>
+
+      <!-- Pass Card -->
+      <div style="background: rgba(255,255,255,0.03); border: 1px dashed var(--border-glow); border-radius: var(--radius-md); padding: 18px; text-align: left; margin-bottom: 24px;">
+        <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-light); padding-bottom: 8px; margin-bottom: 8px;">
+          <span style="font-size: 0.78rem; color: var(--text-dim);">Booking Pass ID:</span>
+          <strong id="confirmResId" style="color: var(--caramel-400); font-family: monospace; font-size: 0.95rem;">VB-RES-4921</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.85rem;">
+          <span style="color: var(--text-secondary);">Party Size:</span>
+          <strong id="confirmResGuests" style="color: #fff;">4 Guests</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.85rem;">
+          <span style="color: var(--text-secondary);">Date & Time:</span>
+          <strong id="confirmResDateTime" style="color: #fff;">Today at 07:30 PM</strong>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+          <span style="color: var(--text-secondary);">Seating Area:</span>
+          <strong id="confirmResZone" style="color: var(--caramel-300);">Secret Garden Floral Patio</strong>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <a href="#" id="resWhatsAppBtn" target="_blank" rel="noopener noreferrer" class="btn btn-caramel" style="width: 100%;">
+          <i class="fab fa-whatsapp"></i> Notify Concierge on WhatsApp
+        </a>
+        <button class="btn btn-outline modal-close-btn" style="width: 100%;">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Quick Table Button -->
+  <a href="#reservation" class="floating-table-btn" title="Reserve Garden Table">
+    <i class="fas fa-chair"></i>
+    <span>Book Garden Table</span>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
